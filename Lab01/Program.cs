@@ -17,6 +17,8 @@ namespace Lab01
                 Console.WriteLine("[4] Multiplicacion de dos enteros");
                 Console.WriteLine("[5] Division de dos numeros");
                 Console.WriteLine("[6] Primeros numeros primos");
+                Console.WriteLine("[7] Centigrados a Fahrenheit");
+                Console.WriteLine("[8] Fahrenheit a Centigrados");
                 Console.WriteLine("[0] Salir");
                 Console.WriteLine("Ingrese una opción y presione ENTER");
                 opcion = Console.ReadLine();
@@ -60,10 +62,22 @@ namespace Lab01
                         Console.ReadKey();
                         break;
                     case "6":
-                        Console.WriteLine("Ingrese el primer número");
+                        Console.WriteLine("Ingrese la cantidad de numeros primos que desea ver");
                         int N1 = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Los primeros {0} numeros primos son: ", N1);
                         nPrimos(N1);
+                        Console.ReadKey();
+                        break;
+                    case "7":
+                        Console.WriteLine("Ingrese una temperatura en centigrados");
+                        int C = Convert.ToInt32(Console.ReadLine());                        
+                        centigradosToFareignkey(C);
+                        Console.ReadKey();
+                        break;
+                    case "8":
+                        Console.WriteLine("Ingrese una temperatura en Fahrenheit");
+                        int F = Convert.ToInt32(Console.ReadLine());
+                        fareignkeyToCentigrados(F);
                         Console.ReadKey();
                         break;
                 }
@@ -149,14 +163,14 @@ namespace Lab01
         }
         static void centigradosToFareignkey(double t)
         {
-            double Tfareign = ((9 * t) / 5) + 5;
-            Console.WriteLine($"{t} centigrados es igual a {Tfareign} grados FareignKey");
+            double Tfareign = ((9 * t) / 5) + 32;
+            Console.WriteLine($"{t} centigrados es igual a {Tfareign} grados Fahrenheit");
         }
 
         static void fareignkeyToCentigrados(double t)
         {
             double centigrados = (5 * (t - 32)) / 9;
-            Console.WriteLine($"{t} grados FareignKey es igual a {centigrados} grados Centigrados");
+            Console.WriteLine($"{t} grados Fahrenheit es igual a {centigrados} grados Centigrados");
         }
     }
 }

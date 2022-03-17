@@ -1,0 +1,16 @@
+C:\Users\gato_\source\repos\Lab01\Lab01\bin\Debug\net5.0\Lab01.exe
+C:\Users\gato_\source\repos\Lab01\Lab01\bin\Debug\net5.0\Lab01.deps.json
+C:\Users\gato_\source\repos\Lab01\Lab01\bin\Debug\net5.0\Lab01.runtimeconfig.json
+C:\Users\gato_\source\repos\Lab01\Lab01\bin\Debug\net5.0\Lab01.runtimeconfig.dev.json
+C:\Users\gato_\source\repos\Lab01\Lab01\bin\Debug\net5.0\Lab01.dll
+C:\Users\gato_\source\repos\Lab01\Lab01\bin\Debug\net5.0\Lab01.pdb
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.csproj.AssemblyReference.cache
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.AssemblyInfoInputs.cache
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.AssemblyInfo.cs
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.csproj.CoreCompileInputs.cache
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.dll
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\refint\Lab01.dll
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.pdb
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\Lab01.genruntimeconfig.cache
+C:\Users\gato_\source\repos\Lab01\Lab01\obj\Debug\net5.0\ref\Lab01.dll
